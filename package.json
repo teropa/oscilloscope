@@ -1,0 +1,34 @@
+{
+  "name": "@teropa/oscilloscope",
+  "version": "1.0.0",
+  "description": "An oscilloscope for Web Audio nodes",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teropa/oscilloscope.git"
+  },
+  "keywords": [],
+  "author": "Tero Parviainen <tero@teropa.info>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teropa/oscilloscope/issues"
+  },
+  "homepage": "https://github.com/teropa/oscilloscope",
+  "devDependencies": {
+    "rollup": "^2.8.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "typescript": "^3.8.3",
+    "rollup-plugin-typescript2": "^0.27.0"
+  }
+}
